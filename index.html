@@ -60,6 +60,11 @@
       border-radius: 16px;
       margin-bottom: 30px;
       box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .preview-img:hover {
+      transform: scale(1.02);
     }
 
     .cta-button {
@@ -131,7 +136,9 @@
 <body>
   <div class="container">
     <h1>¿Ya sabes dónde ver el Mundial 2025?</h1>
-    <img src="ver-futbol-en-vivo.jpg" alt="Fútbol en Vivo" class="preview-img">
+    <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.mazviral.com%2Flp-ver-futbol%2F&sa=D&sntz=1&usg=AOvVaw3F-xymTgUd8ASyAVG0Eap2" onclick="fbq('track', 'ViewContent');">
+      <img src="ver-futbol-en-vivo.jpg" alt="Fútbol en Vivo" class="preview-img">
+    </a>
     <p>Disfruta los partidos EN VIVO desde tu celular. Transmisión segura, gratuita y profesional.</p>
     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.mazviral.com%2Flp-ver-futbol%2F&sa=D&sntz=1&usg=AOvVaw3F-xymTgUd8ASyAVG0Eap2" class="cta-button main-button" onclick="fbq('track', 'ViewContent');">📺 Ver partidos en vivo</a>
     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.mazviral.com%2Flp-ver-futbol%2F&sa=D&sntz=1&usg=AOvVaw3F-xymTgUd8ASyAVG0Eap2" class="cta-button alt-button" onclick="fbq('track', 'ViewContent');">⚽ Ver otros campeonatos</a>
