@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fútbol en Vivo</title>
-    <meta name="description" content="Descubre dónde ver el Mundial 2025 en vivo, desde tu celular.">
+    <meta name="description" content="Descubre dónde ver el Mundial 2025 en vivo desde tu celular con total seguridad y calidad.">
     <!-- Meta Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
@@ -26,46 +26,94 @@
     <!-- End Meta Pixel Code -->
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f9f9f9;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #ffffff, #f0f4f8);
+            color: #222;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            flex: 1;
             padding: 40px 20px;
+            max-width: 600px;
+            margin: 0 auto;
         }
+
         h1 {
-            font-size: 28px;
+            font-size: 2rem;
             color: #1e88e5;
+            margin-bottom: 20px;
         }
+
         p {
-            font-size: 18px;
-            color: #333;
-            margin: 20px auto;
-            max-width: 400px;
+            font-size: 1.1rem;
+            color: #444;
+            margin-bottom: 30px;
         }
-        a.cta-button {
+
+        .cta-button {
             display: inline-block;
             background: linear-gradient(135deg, #1e88e5, #00c6ff);
             color: white;
             font-weight: bold;
             text-align: center;
-            padding: 14px 24px;
-            font-size: 18px;
+            padding: 20px 30px;
+            font-size: 1.3rem;
             text-decoration: none;
-            border-radius: 10px;
-            margin-top: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 132, 255, 0.3);
+            transition: transform 0.2s ease;
         }
-        small {
-            display: block;
-            margin-top: 20px;
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            font-size: 0.8rem;
             color: #888;
+            padding: 20px 10px;
+        }
+
+        footer a {
+            color: #aaa;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .cta-button {
+                width: 100%;
+                font-size: 1.1rem;
+                padding: 18px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>¿Ya sabes dónde ver el Mundial 2025?</h1>
-    <p>Todo está EN VIVO en tu celular. Solo haz clic abajo y empieza ahora mismo.</p>
-    <a href="https://ar.browsebitz.com/mejores-aplicaciones-para-ver-futbol-en-vivo-en-el-celular/" class="cta-button" target="_blank">
-        📲 Ver ahora
-    </a>
-    <small>Al hacer clic, continuarás en nuestro sitio.</small>
+    <div class="container">
+        <h1>¿Ya sabes dónde ver el Mundial 2025?</h1>
+        <p>Disfruta los partidos EN VIVO desde tu celular, de forma segura y gratuita. Haz clic y descubre las mejores opciones disponibles.</p>
+        <a href="https://ar.browsebitz.com/mejores-aplicaciones-para-ver-futbol-en-vivo-en-el-celular/" class="cta-button" target="_blank">
+            📲 Ver ahora
+        </a>
+    </div>
+    <footer>
+        <a href="/politica-de-privacidad">Política de Privacidad</a> |
+        <a href="/terminos-de-uso">Términos de Uso</a> |
+        <a href="/contacto">Contacto</a>
+    </footer>
 </body>
 </html>
